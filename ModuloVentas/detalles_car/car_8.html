@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalles del vehiculo</title>
+    <link rel="stylesheet" href="styleD.css" />
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo"><img src="/Imagenes/Img Logo.png" alt=""></a>
+
+        <ul class="navmenu">
+            <li><a href="index.html">Inventario</a></li>
+            <li><a href="ventas.html">Ventas</a></li>
+            <li><a href="#">Mantenimiento</a></li>
+            <li><a href="Proyecto PQRS/index.html">PQRS</a></li>
+        </ul>
+
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-user'></i></i></a>
+        </div>
+    </header>
+
+
+    <div class="container-title">Detalles del vehiculo</div>
+
+    <main>
+        <div class="container-img">
+            <img height="500px" width="1000px" src="/imagenes/Img 8.jpg" alt="imagen-producto" />
+            <img class="imgd" width="245" height="180px" src="/imagenes/Img 8.jpg" alt="imagen-producto"
+                onclick="myFunction(this)" />
+            <img class="imgd" width="245" height="180px" src="/imagenes/Img 8.jpg" alt="imagen-producto"
+                onclick="myFunction(this)" />
+            <img class="imgd" width="245" height="180px" src="/imagenes/Img 8.jpg" alt="imagen-producto"
+                onclick="myFunction(this)" />
+        </div>
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>FORD EXPLORER ST <br>$289,000,000</span>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="colour">Colores disponibles</label>
+                    <select name="colour" id="colour">
+                        <option disabled selected value="">
+                            Escoge una opción
+                        </option>
+                        <option value="rojo">Rojo</option>
+                        <option value="blanco">Blanco</option>
+                        <option value="beige">negro</option>
+                    </select>
+                </div>
+                <button class="btn-clean">Limpiar</button>
+            </div>
+
+            <div class="container-add-cart">
+                <div class="container-quantity">
+
+                </div>
+                <button class="btn-add-to-cart">
+                    Comprar auto
+                </button>
+            </div>
+
+            <div class="container-description">
+                <div class="title-description">
+                    <h4>Descripción</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description">
+                    <p>
+                        La Explorer ST presenta un diseño agresivo y atlético, con líneas dinámicas y detalles
+                        distintivos que la diferencian de las versiones estándar. Su aspecto deportivo se complementa
+                        con una parrilla exclusiva, entradas de aire más grandes y acabados oscurecidos.
+
+                        En el interior, la Explorer ST ofrece un ambiente elegante y deportivo, con asientos deportivos
+                        tapizados en cuero y detalles en contraste. Puede acomodar cómodamente hasta siete pasajeros y
+                        ofrece amplio espacio para las piernas y la carga.
+
+                        Lo que hace que la Explorer ST se destaque es su rendimiento. Está equipada con un motor V6
+                        turboalimentado de alto rendimiento que produce una potencia considerable. Además, cuenta con
+                        una suspensión deportiva ajustada y una dirección más sensible, lo que le brinda una experiencia
+                        de manejo dinámica y emocionante.
+
+                        La Explorer ST también ofrece características adicionales de rendimiento, como un sistema de
+                        tracción en las cuatro ruedas mejorado, modos de conducción seleccionables y un sistema de
+                        escape deportivo que mejora el sonido del motor.
+
+                        En cuanto a la tecnología y la seguridad, la Explorer ST viene equipada con sistemas de
+                        infoentretenimiento avanzados, pantallas táctiles, compatibilidad con Apple CarPlay y Android
+                        Auto, sistemas de asistencia al conductor, frenado automático de emergencia, monitoreo de punto
+                        ciego y más.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-additional-information">
+                <div class="title-additional-information">
+                    <h4>Información adicional</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional-information hidden">
+                    <p>-----------</p>
+                </div>
+            </div>
+
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>-----------</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="/java.js"></script>
+
+</body>
+
+</html>

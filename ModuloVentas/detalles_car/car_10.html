@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalles del vehiculo</title>
+    <link rel="stylesheet" href="styleD.css" />
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo"><img src="/Imagenes/Img Logo.png" alt=""></a>
+
+        <ul class="navmenu">
+            <li><a href="index.html">Inventario</a></li>
+            <li><a href="ventas.html">Ventas</a></li>
+            <li><a href="#">Mantenimiento</a></li>
+            <li><a href="Proyecto PQRS/index.html">PQRS</a></li>
+            <li><a href="ventas.html">Volver</a></li>
+        </ul>
+
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-user'></i></i></a>
+        </div>
+    </header>
+
+
+    <div class="container-title">Detalles del vehiculo</div>
+
+    <main>
+        <div class="container-img">
+            <img height="500px" width="1000px" src="/imagenes/Img 10.jpg" alt="imagen-producto" />
+            <img class="imgd" width="245" height="180px" src="/imagenes/Img 10.jpg" alt="imagen-producto"
+                onclick="myFunction(this)" />
+            <img class="imgd" width="245" height="180px" src="/imagenes/Img 10.jpg" alt="imagen-producto"
+                onclick="myFunction(this)" />
+            <img class="imgd" width="245" height="180px" src="/imagenes/Img 10.jpg" alt="imagen-producto"
+                onclick="myFunction(this)" />
+        </div>
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>TOYOTA YARIS <br> $83,000,000</span>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="colour">Colores disponibles</label>
+                    <select name="colour" id="colour">
+                        <option disabled selected value="">
+                            Escoge una opción
+                        </option>
+                        <option value="rojo">Rojo</option>
+                        <option value="blanco">Blanco</option>
+                        <option value="beige">negro</option>
+                    </select>
+                </div>
+                <button class="btn-clean">Limpiar</button>
+            </div>
+
+            <div class="container-add-cart">
+                <div class="container-quantity">
+
+                </div>
+                <button class="btn-add-to-cart">
+                    Comprar auto
+                </button>
+            </div>
+
+            <div class="container-description">
+                <div class="title-description">
+                    <h4>Descripción</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description">
+                    <p>
+                        El Toyota Yaris es un automóvil compacto que combina practicidad, eficiencia y confiabilidad en
+                        un diseño moderno y atractivo. Con su tamaño compacto, es perfecto para la conducción en
+                        entornos urbanos y para aquellos que buscan un vehículo ágil y fácil de maniobrar. A pesar de su
+                        tamaño, el Yaris ofrece un sorprendente espacio interior, con asientos cómodos y una capacidad
+                        para hasta cinco pasajeros. Además, su eficiencia en el consumo de combustible es destacable, lo
+                        que lo convierte en una opción económica y amigable con el medio ambiente. Con características
+                        tecnológicas como sistemas de infoentretenimiento y opciones de seguridad avanzadas, el Yaris
+                        brinda una experiencia de conducción cómoda y segura. En resumen, el Toyota Yaris es un
+                        automóvil compacto confiable y versátil que combina eficiencia, comodidad y tecnología en un
+                        paquete atractivo, siendo una opción popular para aquellos que buscan un vehículo práctico y
+                        eficiente para sus desplazamientos diarios.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-additional-information">
+                <div class="title-additional-information">
+                    <h4>Información adicional</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional-information hidden">
+                    <p> Asientos: El Yaris generalmente tiene capacidad para cinco pasajeros, con asientos delanteros y
+                        traseros cómodos y espaciosos. <br><br>
+
+                        Tipo de combustible: El Yaris suele funcionar con gasolina. <br><br>
+
+                        Motores: Dependiendo de la generación y la región, el Yaris puede ofrecer una variedad de
+                        opciones de motor. Esto puede incluir motores de gasolina de diferentes capacidades y
+                        configuraciones para satisfacer las necesidades de potencia y eficiencia. <br><br>
+
+                        Transmisión: El Yaris puede estar disponible con opciones de transmisión manual o automática,
+                        dependiendo del mercado y la versión. Algunos modelos más recientes pueden ofrecer una
+                        transmisión continuamente variable (CVT) para una respuesta suave y eficiente.</p>
+                </div>
+            </div>
+
+
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>-----------</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    
+        <form class="contacto" action="">
+            <h2 class="">Tienes alguna duda?</h2><br>
+            <label for="">Correo electronico<br></label>
+            <input class="camp" type="email" required="" pattern=".+@gmail.com" minlength="1" maxlength="25" placeholder="Digite su correo"><br><br>
+        
+            <label for="">Escribe el motivo<br></label>
+            <input class="camp" type="text" placeholder="Digite el motivo" minlength="1" maxlength="50"><br><br>
+
+            <label for="">Mensaje<br></label>
+            <textarea class="camp name="" id="" cols="30" rows="10" placeholder="Digite un mensaje" required minlength="1" maxlength="200"></textarea><br><br>
+            <input class="boton" type="submit" value="Enviar"><br>
+        </form>
+            
+
+
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="/java.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+.body{
+    background: #C4C4C4;
+}
+
+.body_img_car{
+    background: #C4C4C4;
+    padding: 100px;
+    width: 850px;
+    height: 500px;
+    
+}
+.img_car {
+    width: 90px;
+    height: 85px;
+    position: relative;
+    display: block; 
+    top: 5px;
+    left: 3px;
+    padding-bottom: 7px;
+    
+    object-position: left;
+    object-fit: cover;
+
+}
+.left_img_car{
+    width: 100px;
+    height: 350px;
+    background: #b5b7b9fd;
+    top: 122px;
+    left: 20px;
+    position: absolute;
+
+}
+.center_img_car{
+    width: 620px;
+    height: 350px;
+
+}
+.img_center_body{
+    width: 600;
+    height: 500;
+    object-position: left;
+    object-fit: cover;
+    position: relative;
+    top: 22px;
+    left: 40px;
+}
+
+
+.zone_shop{
+    background: rgba(124, 121, 121, 0.589);
+    position: fixed;
+    height: 720px;
+    width: 500px;
+    top: 64px;
+    left: 850px;
+}
+
+.name_car_container{
+    width: 370px;
+    height: 30px;
+    top: 14px;
+    left: 110px;
+    position: relative;
+}
+
+
+.name_car{
+    color: #fff;
+    margin-left: 30px;
+    padding: 20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.value_car{
+    padding: 20px;
+    position: relative;
+}
+.value{
+    color: whitesmoke;
+    margin-left: 50px;
+    position: relative;
+    top: 100px;
+    right: -115px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.container_buttom{
+    background: #C4C4C4;
+    position: relative;
+    width: 395px;
+    height: 30px;
+    left: 60px;
+    top: 140px;
+    z-index: 600;
+}
+.color_car_buttom{
+    left: 100px ;
+    position: relative;
+    padding: 3px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+}
+.color_car{
+
+    top: 40px;
+
+}
+.select_color_car{
+    position: relative;
+    width: 395px;
+    height: 110px;
+    left: 60px;
+    top: 150px;
+    background: #C4C4C4;
+    z-index: 4;
+}
+
+.list_color_car{
+    text-decoration:#C4C4C4;
+    position: relative;
+    left: 20px;
+    padding: 20px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.buy_buttom{
+    padding: 20px;
+   
+    position: relative;
+    top: 170px;
+    left: 200px;
+    width: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buy_buttom{
+    width: 155px ;
+    position: relative;
+
+}
+
+
+.color_car_{
+    
+    margin-left: 20px;
+    font-size: 20px;
+top: 50px;
+}
+
+
+
+
+.body_crt_car{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.caja_1{
+    width: 425px;
+    height: 329px;
+    padding-top: 0px;
+    background: #3352FF;
+    top: -20px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.caja_2{
+    width: 425px;
+    height: 329px;
+    padding-top: 0px;
+    left: 425px;
+    top: -367px;
+    background:#3352FF;
+
+    position: relative;
+}
+
+.crt_car{
+    padding: 20px;
+    color: #fff;
+    
+}
+
+.text_car{
+    padding: 25px;
+    color: #fff
+    
+}

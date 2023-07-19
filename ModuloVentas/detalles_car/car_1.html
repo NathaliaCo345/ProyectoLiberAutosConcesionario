@@ -1,0 +1,157 @@
+<?php
+require index.php
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Detalles del vehiculo</title>
+	<link rel="stylesheet" href="styleD.css" />
+	
+</head>
+
+<body>
+
+	<header>
+		<a href="#" class="logo"><img src="/Imagenes/Img Logo.png" alt=""></a>
+
+		<ul class="navmenu">
+			<li><a href="index.html">Inventario</a></li>
+			<li><a href="ventas.html">Ventas</a></li>
+			<li><a href="#">Mantenimiento</a></li>
+			<li><a href="Proyecto PQRS/index.html">PQRS</a></li>
+		</ul>
+
+		<div class="nav-icon">
+			<a href="#"><i class='bx bx-search'></i></a>
+			<a href="#"><i class='bx bx-user'></i></i></a>
+		</div>
+	</header>
+
+
+	<div class="container-title">Detalles del vehiculo</div>
+
+	<main>
+		<div class="container-img">
+			<img height="500px" width="1000px" src="/imagenes/ImgPrueba.jpg" alt="imagen-producto" />
+			<img class="imgd" height="180px" src="/imagenes/Img 3 Prueba.jpg" alt="imagen-producto"
+				onclick="myFunction(this)" />
+			<img class="imgd" height="180px" src="/imagenes/Img 3 Prueba.jpg" alt="imagen-producto"
+				onclick="myFunction(this)" />
+			<img class="imgd" height="180px" src="/imagenes/Img 3 Prueba.jpg" alt="imagen-producto"
+				onclick="myFunction(this)" />
+		</div>
+		<div class="container-info-product">
+			<div class="container-price">
+				<span>RENAULT KOLEOS <br>$141,700,000</span>
+				<i class="fa-solid fa-angle-right"></i>
+			</div>
+
+			<div class="container-details-product">
+				<div class="form-group">
+					<label for="colour">Colores disponibles</label>
+					<select name="colour" id="colour">
+						<option disabled selected value="">
+							Escoge una opción
+						</option>
+						<option value="rojo">Rojo</option>
+						<option value="blanco">Blanco</option>
+						<option value="beige">negro</option>
+					</select>
+				</div>
+				<button class="btn-clean">Limpiar</button>
+			</div>
+
+			<div class="container-add-cart">
+				<div class="container-quantity">
+
+				</div>
+				<button class="btn-add-to-cart">
+					Comprar auto
+				</button>
+			</div>
+
+			<div class="container-description">
+				<div class="title-description">
+					<h4>Descripción</h4>
+					<i class="fa-solid fa-chevron-down"></i>
+				</div>
+				<div class="text-description">
+					<p>
+						El Koleos presenta un diseño elegante y aerodinámico, con líneas suaves y modernas. Su
+						carrocería robusta y musculosa le otorga una presencia imponente en la carretera. El vehículo
+						está diseñado para ofrecer una combinación de comodidad, estilo y funcionalidad.
+
+						En cuanto al interior, el Renault Koleos ofrece un espacio generoso y cómodo para los ocupantes.
+						Puede acomodar hasta cinco pasajeros con amplitud, y los asientos son ergonómicos y brindan un
+						buen soporte. Además, cuenta con una capacidad de carga considerable en el maletero, lo que lo
+						hace adecuado para viajes largos o para transportar carga.
+
+						El Koleos viene equipado con una variedad de características y tecnologías, dependiendo de la
+						versión y del equipamiento opcional. Estas características pueden incluir sistemas de
+						infoentretenimiento con pantalla táctil, conectividad Bluetooth, compatibilidad con Apple
+						CarPlay y Android Auto, sistema de navegación, cámara de visión trasera, sensores de
+						estacionamiento, control de crucero adaptativo, asientos con calefacción y ventilación, y mucho
+						más.
+					</p>
+				</div>
+			</div>
+
+			<div class="container-additional-information">
+				<div class="title-additional-information">
+					<h4>Información adicional</h4>
+					<i class="fa-solid fa-chevron-down"></i>
+				</div>
+				<div class="text-additional-information hidden">
+					<p>-----------</p>
+				</div>
+			</div>
+
+			<div class="container-reviews">
+				<div class="title-reviews">
+					<h4>Reseñas</h4>
+					<i class="fa-solid fa-chevron-down"></i>
+				</div>
+				<div class="text-reviews hidden">
+					<p>-----------</p>
+				</div>
+			</div>
+		</div>
+
+
+	</main>
+
+	<form class="contacto" action="index.php" method="post">
+		<h2 class="">Tienes alguna duda?</h2><br>
+		<label for="">Correo electronico<br></label>
+		<input name="correoelectronico" class="camp" type="email" required="" pattern=".+@gmail.com" minlength="1" maxlength="25" placeholder="Digite su correo"><br><br>
+	
+		<label for="">Escribe el motivo<br></label>
+		<input name="motivo" class="camp" type="text" placeholder="Digite el motivo" minlength="1" maxlength="50"><br><br>
+
+		<label for="">Mensaje<br></label>
+		<textarea  name="mensaje" class="camp" id="" cols="30" rows="10" placeholder="Digite un mensaje" required minlength="1" maxlength="200"></textarea><br><br>
+		<input onclick="mensaje" class="boton" type="submit" value="Enviar"><br>
+		<button>enciar</button>
+		<button>enciar</button>
+		<button>enciar</button>
+	</form>
+
+	<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+	<script>
+		function mensaje(){
+			alert('enviado correctamente');
+		}
+	</script>
+		<script src="/java.js"></script>
+
+
+</body>
+
+</html>

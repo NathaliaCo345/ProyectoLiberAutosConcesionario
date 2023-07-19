@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalles del vehiculo</title>
+    <link rel="stylesheet" href="styleD.css" />
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo"><img src="/Imagenes/Img Logo.png" alt=""></a>
+
+        <ul class="navmenu">
+            <li><a href="index.html">Inventario</a></li>
+            <li><a href="ventas.html">Ventas</a></li>
+            <li><a href="#">Mantenimiento</a></li>
+            <li><a href="Proyecto PQRS/index.html">PQRS</a></li>
+        </ul>
+
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-user'></i></i></a>
+        </div>
+    </header>
+
+
+    <div class="container-title">Detalles del vehiculo</div>
+
+    <main>
+        <div class="container-img">
+            <img height="500px" width="1000px" src="/imagenes/Img 9.jpg" alt="imagen-producto" />
+            <img class="imgd" width="245" height="180px" src="/imagenes/Img 9.jpg" alt="imagen-producto"
+                onclick="myFunction(this)" />
+            <img class="imgd" width="245" height="180px" src="/imagenes/Img 9.jpg" alt="imagen-producto"
+                onclick="myFunction(this)" />
+            <img class="imgd" width="245" height="180px" src="/imagenes/Img 9.jpg" alt="imagen-producto"
+                onclick="myFunction(this)" />
+        </div>
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>TOYOTA FORTUNER <br>$228,000,000</span>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="colour">Colores disponibles</label>
+                    <select name="colour" id="colour">
+                        <option disabled selected value="">
+                            Escoge una opción
+                        </option>
+                        <option value="rojo">Rojo</option>
+                        <option value="blanco">Blanco</option>
+                        <option value="beige">Beige</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="size">Talla</label>
+                    <select name="size" id="size">
+                        <option disabled selected value="">
+                            Escoge una opción
+                        </option>
+                        <option value="40">40</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                    </select>
+                </div>
+                <button class="btn-clean">Limpiar</button>
+            </div>
+
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input type="number" placeholder="1" value="1" min="1" class="input-quantity" />
+                    <div class="btn-increment-decrement">
+                        <i class="fa-solid fa-chevron-up" id="increment"></i>
+                        <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                    </div>
+                </div>
+                <button class="btn-add-to-cart">
+                    <i class="fa-solid fa-plus"></i>
+                    Añadir al carrito
+                </button>
+            </div>
+
+            <div class="container-description">
+                <div class="title-description">
+                    <h4>Descripción</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description">
+                    <p>
+                        La Fortuner presenta un diseño robusto y atlético, con una apariencia sólida y musculosa. Su
+                        altura al suelo elevada, combinada con su capacidad de tracción en las cuatro ruedas, la
+                        convierte en una opción ideal para aventuras fuera de la carretera y para enfrentar terrenos
+                        difíciles.
+
+                        En el interior, la Fortuner ofrece un amplio espacio para hasta siete pasajeros en tres filas de
+                        asientos. Los asientos son cómodos y ofrecen un buen soporte, y el diseño de la cabina es
+                        práctico y funcional. Además, cuenta con una capacidad de carga generosa en el maletero, lo que
+                        la hace adecuada para viajes largos o para transportar carga.
+
+                        La Fortuner está disponible en diferentes versiones y configuraciones, con opciones de
+                        motorización que incluyen motores diésel y de gasolina, dependiendo del mercado. Estos motores
+                        suelen estar acoplados a una transmisión automática para facilitar el manejo.
+
+                        En términos de características y tecnología, la Fortuner puede incluir sistemas de
+                        infoentretenimiento con pantalla táctil, conectividad Bluetooth, compatibilidad con Apple
+                        CarPlay y Android Auto, sistema de navegación, cámara de visión trasera, y una serie de
+                        características de seguridad, como sistemas de frenado de emergencia, asistencia de cambio de
+                        carril y monitoreo de punto ciego.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-additional-information">
+                <div class="title-additional-information">
+                    <h4>Información adicional</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional-information hidden">
+                    <p>-----------</p>
+                </div>
+            </div>
+
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>-----------</p>
+                </div>
+            </div>
+
+            <div class="container-social">
+                <span>Compartir</span>
+                <div class="container-buttons-social">
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <form class="contacto" action="">
+        <h2 class="">Tienes alguna duda?</h2><br>
+        <label for="">Correo electronico<br></label>
+        <input class="camp" type="email" required="" pattern=".+@gmail.com" minlength="1" maxlength="25" placeholder="Digite su correo"><br><br>
+    
+        <label for="">Escribe el motivo<br></label>
+        <input class="camp" type="text" placeholder="Digite el motivo" minlength="1" maxlength="50"><br><br>
+
+        <label for="">Mensaje<br></label>
+        <textarea class="camp name="" id="" cols="30" rows="10" placeholder="Digite un mensaje" required minlength="1" maxlength="200"></textarea><br><br>
+        <input class="boton" type="submit" value="Enviar"><br>
+    </form>
+   
+
+
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="/java.js"></script>
+
+</body>
+
+</html>

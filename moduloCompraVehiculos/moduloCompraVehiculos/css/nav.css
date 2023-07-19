@@ -1,0 +1,63 @@
+.logo {
+    position: absolute;
+    width: 10%;
+    height: 75%;
+    top: 10%;
+}
+
+.nav{
+    background: #3352FF;
+    position: fixed;
+    width: 1900px;
+    height: 65px;
+    top: 0px;
+    z-index: 300;
+}
+.nav_li{
+    display: inline-block;
+    padding: 10px;
+    color: #C4C4C4;
+    position: relative;
+    top: -25%;
+    right: -13%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.nav_li:hover > a {
+    color: #ccc;
+}
+
+.nav_li:hover{
+    color: #fff;
+}
+
+.nav_li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav_li i {
+    width: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 5px;
+}
+.nav_vb{
+    width: 250px;
+    margin-right: 250px;
+    margin-left: 250px ;
+    background: #c4d1ee;
+    transition: background 1.5s , padding 1.5s;
+}
+
+.nav_vb:focus{
+    background: #fff;   
+    padding: 8px;
+}
+
+.nav_img{
+    margin-left: 20px;
+    border-radius: 45% #0a9faa;
+
+}

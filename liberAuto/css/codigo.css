@@ -1,0 +1,120 @@
+*{
+    font-weight: 50;
+    font-size: 23px;
+}
+
+.busca_repuesto{
+    position: fixed;
+    padding: 5px;
+    background:rgb(170, 183, 184);
+    height: 800px;
+    width:430px ;
+    top: 49px;
+
+}
+
+.rp{
+    padding: 10px;
+    
+    display: inline-block;
+    margin: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pr2{
+    padding: 10px;
+    background: #9186a1;
+    display: inline-block;
+    margin: 30px;
+}
+
+.invent{
+   padding: 20px;
+    background:rgb(255, 255, 255) ;
+    width: auto;
+    position: absolute;
+    padding: 10px;
+    border:  #9186a1 ;
+    height: auto;
+    width: 840px;
+    left: 420px;
+    top: 50px;
+    overflow-y: auto;
+    z-index: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.pro{
+    position: relative;
+    background: #59645c;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    transition: all 2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 60px;
+}
+
+.pro:hover{
+    background: #7f8d7f;
+    width: 230px;
+    height: 230px;
+    
+
+}
+.nombre_p{
+    background: #bdc1ae;
+    width: 130px;
+    margin: 8px;
+    transition: all 2s;
+    font-size: medium;
+    box-sizing:content-box ;
+     
+}
+.nombre_p:hover{
+    background: #bdc1ae;
+    width: 150px;
+    margin: 10px;
+}
+
+.img{
+    left: 40px;
+    position: relative;
+    height: 90px;
+    width: 90px;
+    transition: all 2s;
+}
+
+.img:hover{
+    left: 40px;
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+.valor{
+    position: absolute;
+    background: #9186a1;
+    height: 20px;
+    width: 150px;
+    margin: 9px;
+}
+
+input {
+    position: relative;
+    left: 35px;
+    width: 340px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.enviar {
+    position: relative;
+    top: 1px;
+    width: 100px;
+    left: 55px;
+}

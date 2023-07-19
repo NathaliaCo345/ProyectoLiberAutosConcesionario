@@ -1,0 +1,124 @@
+*{
+    font-weight: 50;
+    font-size: 25px;
+}
+
+.encabezado {
+    position: fixed;
+    padding: 10px;
+    background:#5c5a6d;
+    border:  #9186a1 ;
+    width: 1900px;
+    height: 100px;
+    z-index: 3;
+}
+
+h2{
+    background: #9186a1;
+    display: inline-block;
+    padding: 6px;
+    margin: 20px;
+    
+}
+
+.caja1{
+    background: #9186a1;
+    display: inline-block;
+    padding: 6px;
+    margin: 20px;
+}
+
+.busca_repuesto{
+    position: fixed;
+    padding: 5px;
+    background: #4f5353;
+    height: 800px;
+    width:430px ;
+    top: 100px;
+
+}
+
+.rp{
+    padding: 10px;
+    background: #9186a1;
+    display: inline-block;
+    margin: 30px;
+}
+.pr2{
+    padding: 10px;
+    background: #9186a1;
+    display: inline-block;
+    margin: 30px;
+}
+
+.invent{
+   padding: 20px;
+    background: #7183b2;
+    width: auto;
+    position: absolute;
+    padding: 10px;
+    border:  #9186a1 ;
+    height: auto;
+    width: 840px;
+    left: 420px;
+    top: 100px;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+
+
+.pro{
+    position: relative;
+    background: #59645c;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    transition: all 2s;
+}
+
+.pro:hover{
+    background: #7f8d7f;
+    width: 180px;
+    height: 180px;
+    
+
+}
+.nombre_p{
+    background: #bdc1ae;
+    width: 130px;
+    margin: 8px;
+    transition: all 2s;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nombre_p:hover{
+    background: #bdc1ae;
+    width: 150px;
+    margin: 10px;
+}
+
+.img{
+    left: 40px;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    transition: all 2s;
+}
+
+.img:hover{
+    left: 40px;
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+.valor{
+    position: relative;
+    background: #9186a1;
+    height: 20px;
+    width: 150px;
+    margin: 9px;
+}

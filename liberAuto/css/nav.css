@@ -1,0 +1,131 @@
+
+.nav_responsive-ul{
+    display: none;
+}
+
+.nav{
+    background: #3352FF;
+    position: fixed;
+    width: 1900px;
+    height: 100px;
+    z-index: 3;
+}
+
+.nav_li{
+    
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    padding-top: -10px;
+    
+}
+
+.logo_car{
+    height: 52px;
+    width: 248px;
+    position: relative;
+    display: inline-block;
+    object-fit: cover;
+    object-position: left;
+}
+
+.nav_li:hover > a {
+    color: #ccc;
+    
+}
+
+.nav_li:hover{
+    color: #fff;
+}
+
+.nav_li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav_li i {
+
+    height: 60px;
+    width: 45px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 2px;
+}
+.nav_responsive-buttom{
+    float: right;
+    font-size: 25px;
+    padding: 6px 20px;
+}
+@media only screen and (max-width: 500px) {
+    .nav_ul {
+        display: none;
+    }
+    .nav_responsive-ul{
+        display: block;
+    }
+}
+
+.logo {
+    position: relative;
+    width: 10.5%;
+    left: -2.7%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 50px;
+    background: #3252ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.navigation a {
+    position: relative;
+    font-size: -2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    margin-left: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scale(0);
+    transition: transform .5s;
+}
+
+.navigation .login {
+    width: 38px;
+    height: 35px;
+    background: transparent;
+    border-radius: 50px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 20px;
+    transition: .5s;
+    color: white;
+}
+
+.navigation a:hover::after {
+    transform-origin: left;
+    transform: scale(1);
+}
+
+.navigation .login:hover {
+    background: white;
+    color: black;
+}

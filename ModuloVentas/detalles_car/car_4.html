@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalles del vehiculo</title>
+    <link rel="stylesheet" href="styleD.css" />
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo"><img src="/Imagenes/Img Logo.png" alt=""></a>
+
+        <ul class="navmenu">
+            <li><a href="index.html">Inventario</a></li>
+            <li><a href="ventas.html">Ventas</a></li>
+            <li><a href="#">Mantenimiento</a></li>
+            <li><a href="Proyecto PQRS/index.html">PQRS</a></li>
+        </ul>
+
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-user'></i></i></a>
+        </div>
+    </header>
+
+
+    <div class="container-title">Detalles del vehiculo</div>
+
+    <main>
+        <div class="container-img">
+            <img height="500px" width="1000px" src="/imagenes/Img 4.jpg" alt="imagen-producto" />
+            <img class="imgd" height="180px" src="/imagenes/Img 4.jpg" alt="imagen-producto"
+                onclick="myFunction(this)" />
+            <img class="imgd" height="180px" src="/imagenes/Img 4.jpg" alt="imagen-producto"
+                onclick="myFunction(this)" />
+            <img class="imgd" height="180px" src="/imagenes/Img 4.jpg" alt="imagen-producto"
+                onclick="myFunction(this)" />
+        </div>
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>RENAULT OROCH <br>$115,800,000</span>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="colour">Colores disponibles</label>
+                    <select name="colour" id="colour">
+                        <option disabled selected value="">
+                            Escoge una opción
+                        </option>
+                        <option value="rojo">Rojo</option>
+                        <option value="blanco">Blanco</option>
+                        <option value="beige">negro</option>
+                    </select>
+                </div>
+                <button class="btn-clean">Limpiar</button>
+            </div>
+
+            <div class="container-add-cart">
+                <div class="container-quantity">
+
+                </div>
+                <button class="btn-add-to-cart">
+                    Comprar auto
+                </button>
+            </div>
+
+            <div class="container-description">
+                <div class="title-description">
+                    <h4>Descripción</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description">
+                    <p>
+                        La Oroch presenta un diseño robusto y deportivo, con líneas dinámicas y detalles modernos. Su
+                        carrocería de doble cabina le permite acomodar cómodamente a cinco pasajeros, mientras que la
+                        parte trasera está diseñada con una amplia caja de carga, proporcionando espacio adicional para
+                        transportar carga o equipos.
+
+                        En términos de capacidad de carga, la Oroch ofrece una de las mejores en su clase, permitiendo
+                        transportar objetos voluminosos y pesados con facilidad. Además, cuenta con una serie de
+                        características prácticas, como anclajes para sujetar la carga, protección contra salpicaduras y
+                        opciones de cubierta para mantener los objetos seguros y protegidos.
+
+                        El interior de la Oroch está diseñado con un enfoque en la comodidad y la funcionalidad. Los
+                        asientos son espaciosos y brindan un buen soporte, mientras que los controles y la disposición
+                        del tablero son intuitivos y fáciles de usar. Además, cuenta con características tecnológicas
+                        como sistemas de infoentretenimiento con pantalla táctil, conectividad Bluetooth y
+                        compatibilidad con dispositivos móviles.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-additional-information">
+                <div class="title-additional-information">
+                    <h4>Información adicional</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional-information hidden">
+                    <p>-----------</p>
+                </div>
+            </div>
+
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>-----------</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <form class="contacto" action="">
+        <h2 class="">Tienes alguna duda?</h2><br>
+        <label for="">Correo electronico<br></label>
+        <input class="camp" type="email" required="" pattern=".+@gmail.com" minlength="1" maxlength="25" placeholder="Digite su correo"><br><br>
+    
+        <label for="">Escribe el motivo<br></label>
+        <input class="camp" type="text" placeholder="Digite el motivo" minlength="1" maxlength="50"><br><br>
+
+        <label for="">Mensaje<br></label>
+        <textarea class="camp name="" id="" cols="30" rows="10" placeholder="Digite un mensaje" required minlength="1" maxlength="200"></textarea><br><br>
+        <input class="boton" type="submit" value="Enviar"><br>
+    </form>
+
+
+
+
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="/java.js"></script>
+
+</body>
+
+</html>
